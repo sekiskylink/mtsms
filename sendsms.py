@@ -15,8 +15,8 @@ logging.basicConfig(
 
 CHUNK_SIZE = 400
 ROUTER_URL = {
-    'yo8200': 'http://127.0.0.1:13013/cgi-bin/sendsms?from=8200&username=mtrack&password=pae7Phee',
-    'yo': 'http://127.0.0.1:13013/cgi-bin/sendsms?from=6767&username=mtrack&password=pae7Phee'
+    'yo8200': 'http://127.0.0.1:13013/cgi-bin/sendsms?from=8200&username=tester&password=foobar',
+    'yo': 'http://127.0.0.1:13013/cgi-bin/sendsms?from=6767&username=tester&password=foobar'
 }
 
 DBS = [

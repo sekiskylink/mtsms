@@ -1,0 +1,17 @@
+*.pyc
+=======
+.project
+.pydevproject
+.settings
+*~
+*.sqlite
+.idea
+*.ids
+*.swp
+script.log
+*.sublime-project
+*.sublime-workspace
+.ropeproject/
+.codeintel/
+.vagrant
+settings.py
