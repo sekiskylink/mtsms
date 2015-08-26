@@ -1,0 +1,13 @@
+/var/log/mtsms/*.log {
+              daily
+              missingok
+              rotate 365
+              compress
+              delaycompress
+              notifempty
+              create 640 wwwrun wwwrun
+              sharedscripts
+              # postrotate
+              #          /etc/init.d/dispatcherd restart > /dev/null
+              endscript
+}

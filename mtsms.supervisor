@@ -1,0 +1,9 @@
+[program:mtsms]
+command = /var/www/env/prod/bin/python sendsms.py
+process_name = mtsms
+directory = /var/www/prod/mtsms/
+priority = 50
+redirect_stderr = true
+stdout_logfile= /var/log/mtsms/mtsms.log
+stopsignal = INT
+user = www-data
